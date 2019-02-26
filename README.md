@@ -1,1 +1,1 @@
-# Homework 1: Trees
+# Homework 1: Decision Trees
