@@ -2,6 +2,7 @@
 
 import argparse
 import os
+import pandas
 
 def parse_args():
 	parser = argparse.ArgumentParser()
@@ -27,6 +28,11 @@ def main():
 	train = os.path.join(args.dir, args.train)
 	test = os.path.join(args.dir, args.test)
 	valid = os.path.join(args.dir, args.valid)
+
+	#read in the csvs
+	train = pandas.read_csv(train)
+	test = pandas.read_csv(test)
+	valid = pandas.read_csv(valid)
 
 	print(train, test, valid)
 
