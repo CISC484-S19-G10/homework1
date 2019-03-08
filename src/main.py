@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import argparse
+import os
 
 def parse_args():
 	parser = argparse.ArgumentParser()
@@ -11,17 +12,23 @@ def parse_args():
 
 	#optional args
 	parser.add_argument('--train', default='training_set.csv', \
-	                    help='the name of the file containing the training data')
+	                    help='the name of the file containing the training data in the given dir')
 	parser.add_argument('--test', default='test_set.csv', \
-	                    help='the name of the file containg the testing data')
+	                    help='the name of the file containg the testing data in the given dir')
 	parser.add_argument('--valid', default='validation_set.csv', \
-	                    help='the name of the file containg the validation data') 
+	                    help='the name of the file containg the validation data in the given dir') 
 
 	return parser.parse_args()
 
 def main():
 	args = parse_args()
-	print(args.dir, args.train, args.test, args.valid)
+	
+	#assume all files are in the specified directory
+	train = os.path.join(args.dir, args.train)
+	test = os.path.join(args.dir, args.test)
+	valid = os.path.join(args.dir, args.valid)
+
+	print(train, test, valid)
 
 if __name__=='__main__':
 	main()
