@@ -26,7 +26,7 @@ def entropy(data):
 	
 	return total
 
-def gain(data, attr, heur=entropy):
+def gain(data, attr, heuristic=entropy):
 	values = data[attr].unique()
 
 	n_data = data.shape[0]
@@ -41,6 +41,6 @@ def gain(data, attr, heur=entropy):
 		p_v = s_v.shape[0] / n_data
 
 		#subtract that proption times the heaursistic of the subset from the total_gain
-		total_gain -= p_v * heur(s_v)
+		total_gain -= p_v * heuristic(s_v)
 	
 	return total_gain
