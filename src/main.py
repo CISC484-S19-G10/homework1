@@ -36,7 +36,7 @@ def main():
 	valid = pandas.read_csv(valid)
 
 	root = Node()
-	build_tree(root, train)
+	build_tree(root, train, entropy)
 
 	print_subtree(root,0)
 
@@ -45,7 +45,7 @@ def main():
 
 #Slow, I think I may be copying data down each split of the tree then
 #just filtering it like I want to
-def build_tree(node, data):
+def build_tree(node, data, heuristic):
 	#At each layer, filter the data so that it only sees data that should be at that branch
 	filtered_subset = data
 	for key in node.previous_splits:
@@ -60,7 +60,7 @@ def build_tree(node, data):
 		return 0
 	else:
 		#Get the best attribute to split on
-		best_attr = best_split(filtered_subset, entropy)
+		best_attr = best_split(filtered_subset, heuristic)
 		node.split_attribute = best_attr
 		
 		#Partition the left and right nodes
@@ -71,8 +71,8 @@ def build_tree(node, data):
 		node.right.previous_splits[best_attr] = 1
 
 		#Recurse!
-		build_tree(node.left, filtered_subset)
-		build_tree(node.right, filtered_subset)
+		build_tree(node.left, filtered_subset, heuristic)
+		build_tree(node.right, filtered_subset, heuristic)
 
 class Node:
 	def __init__(self, previous_splits={}):
