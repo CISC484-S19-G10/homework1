@@ -22,6 +22,16 @@ def parse_args():
 
 	return parser.parse_args()
 
+# Given a subset and a heuristic, returns the attribute that has
+# the greatest info gain
+def best_split(subset, heuristic):
+	#Get all of the attribute columns (but not our class column)
+	col_names = list(subset)
+	col_names = col_names[0:len(col_names)-1]
+
+	#Find the attribute that has the max infogain
+	return max(col_names, key=lambda a: gain(subset, a, heuristic=heuristic))
+
 def main():
 	args = parse_args()
 	
