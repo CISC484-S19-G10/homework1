@@ -36,6 +36,7 @@ def main():
 	test = pandas.read_csv(test)
 	valid = pandas.read_csv(valid)
 
+	print(best_split(train, varianceImpurity))
 	root = Node()
 	build_tree(root, train, entropy)
 
