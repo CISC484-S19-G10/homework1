@@ -53,13 +53,4 @@ def best_split(subset, heuristic):
 	col_names = col_names[0:len(col_names)-1]
 
 	#Find the attribute that has the max infogain
-	#There's probably a more pythonic way to do this...
-	max_info_gain = -1
-	max_info_gain_col = ""
-	for col in col_names:
-		info_gain = gain(subset, col, heuristic)
-		if(info_gain > max_info_gain):
-			max_info_gain = info_gain
-			max_info_gain_col = col
-
-	return max_info_gain_col
+	return max(col_names, key=lambda a: gain(subset, a, heuristic=heuristic))
