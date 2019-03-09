@@ -14,3 +14,4 @@ def varianceImpurity(data):
 	vi = (k0/k)*(k1/k)
 
 	return vi
+
