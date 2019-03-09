@@ -3,6 +3,7 @@
 import argparse
 import os
 import pandas
+import heuristics
 
 def parse_args():
 	parser = argparse.ArgumentParser()
@@ -34,7 +35,9 @@ def main():
 	test = pandas.read_csv(test)
 	valid = pandas.read_csv(valid)
 
-	print(train, test, valid)
+	#print(train, test, valid)
+	print(heuristics.gain(train, 'XB', heur=heuristics.entropy))
+	print(heuristics.entropy(train))
 
 if __name__=='__main__':
 	main()
