@@ -44,3 +44,22 @@ def gain(data, attr, heuristic=entropy):
 		total_gain -= p_v * heuristic(s_v)
 	
 	return total_gain
+
+# Given a subset and a heuristic, returns the attribute that has
+# the greatest info gain
+def best_split(subset, heuristic):
+	#Get all of the attribute columns (but not our class column)
+	col_names = list(subset)
+	col_names = col_names[0:len(col_names)-1]
+
+	#Find the attribute that has the max infogain
+	#There's probably a more pythonic way to do this...
+	max_info_gain = -1
+	max_info_gain_col = ""
+	for col in col_names:
+		info_gain = gain(subset, col, heuristic)
+		if(info_gain > max_info_gain):
+			max_info_gain = info_gain
+			max_info_gain_col = col
+
+	return max_info_gain_col
