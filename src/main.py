@@ -36,7 +36,7 @@ def main():
 	test = pandas.read_csv(test)
 	valid = pandas.read_csv(valid)
 
-	for heur in [entropy, varianceImpurity]:
+	for heur in [varianceImpurity]:
 		root = Node()
 		root.build_tree(train, heur)	
 		root.print_subtree(0)

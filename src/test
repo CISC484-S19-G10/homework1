@@ -1,0 +1,3435 @@
+1    300
+0    300
+Name: Class, dtype: int64
+0    138
+1    127
+Name: Class, dtype: int64
+1    173
+0    162
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+0    135
+1    112
+Name: Class, dtype: int64
+1    188
+0    165
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+1    187
+0    162
+Name: Class, dtype: int64
+0    138
+1    113
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+1    166
+0    147
+Name: Class, dtype: int64
+0    153
+1    134
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+1    158
+0    155
+Name: Class, dtype: int64
+0    145
+1    142
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+0    169
+1    154
+Name: Class, dtype: int64
+1    146
+0    131
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+1    173
+0    149
+Name: Class, dtype: int64
+0    151
+1    127
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+1    194
+0    150
+Name: Class, dtype: int64
+0    150
+1    106
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+0    133
+1    119
+Name: Class, dtype: int64
+1    181
+0    167
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+0    140
+1    116
+Name: Class, dtype: int64
+1    184
+0    160
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+0    153
+1    140
+Name: Class, dtype: int64
+1    160
+0    147
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+1    180
+0    148
+Name: Class, dtype: int64
+0    152
+1    120
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+1    166
+0    146
+Name: Class, dtype: int64
+0    154
+1    134
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+1    187
+0    136
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+1    177
+0    159
+Name: Class, dtype: int64
+0    141
+1    123
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+1    176
+0    155
+Name: Class, dtype: int64
+0    145
+1    124
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+1    192
+0    163
+Name: Class, dtype: int64
+0    137
+1    108
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+0    163
+1    146
+Name: Class, dtype: int64
+1    154
+0    137
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+1    179
+0    147
+Name: Class, dtype: int64
+0    153
+1    121
+Name: Class, dtype: int64
+1    300
+0    300
+Name: Class, dtype: int64
+1    170
+0    142
+Name: Class, dtype: int64
+0    158
+1    130
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    91
+1    89
+Name: Class, dtype: int64
+0    73
+1    24
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    85
+1    75
+Name: Class, dtype: int64
+0    79
+1    38
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    78
+1    44
+Name: Class, dtype: int64
+0    86
+1    69
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    85
+1    69
+Name: Class, dtype: int64
+0    79
+1    44
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    87
+1    66
+Name: Class, dtype: int64
+0    77
+1    47
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    76
+1    63
+Name: Class, dtype: int64
+0    88
+1    50
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    83
+1    56
+Name: Class, dtype: int64
+0    81
+1    57
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    84
+1    45
+Name: Class, dtype: int64
+0    80
+1    68
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    63
+1    43
+Name: Class, dtype: int64
+0    101
+1     70
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    81
+1    61
+Name: Class, dtype: int64
+0    83
+1    52
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    84
+1    46
+Name: Class, dtype: int64
+0    80
+1    67
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+1    95
+0    72
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    76
+1    59
+Name: Class, dtype: int64
+0    88
+1    54
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    73
+1    59
+Name: Class, dtype: int64
+0    91
+1    54
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    82
+1    51
+Name: Class, dtype: int64
+0    82
+1    62
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    80
+1    69
+Name: Class, dtype: int64
+0    84
+1    44
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    97
+1    61
+Name: Class, dtype: int64
+0    67
+1    52
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    82
+1    47
+Name: Class, dtype: int64
+0    82
+1    66
+Name: Class, dtype: int64
+0    164
+1    113
+Name: Class, dtype: int64
+0    88
+1    43
+Name: Class, dtype: int64
+0    76
+1    70
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    51
+1    15
+Name: Class, dtype: int64
+0    41
+1     3
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    47
+1     3
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    38
+1     4
+Name: Class, dtype: int64
+0    54
+1    14
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    46
+1    13
+Name: Class, dtype: int64
+0    46
+1     5
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    51
+Name: Class, dtype: int64
+0    41
+1    18
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    47
+1     3
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    45
+1    13
+Name: Class, dtype: int64
+0    47
+1     5
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    47
+1     6
+Name: Class, dtype: int64
+0    45
+1    12
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    38
+1     5
+Name: Class, dtype: int64
+0    54
+1    13
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    42
+1     7
+Name: Class, dtype: int64
+0    50
+1    11
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    50
+1     8
+Name: Class, dtype: int64
+0    42
+1    10
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    39
+1     8
+Name: Class, dtype: int64
+0    53
+1    10
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    40
+1     8
+Name: Class, dtype: int64
+0    52
+1    10
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    47
+1     8
+Name: Class, dtype: int64
+0    45
+1    10
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    49
+1    15
+Name: Class, dtype: int64
+0    43
+1     3
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    53
+1    16
+Name: Class, dtype: int64
+0    39
+1     2
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    45
+1    10
+Name: Class, dtype: int64
+0    47
+1     8
+Name: Class, dtype: int64
+0    92
+1    18
+Name: Class, dtype: int64
+0    46
+1     4
+Name: Class, dtype: int64
+0    46
+1    14
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    24
+1    12
+Name: Class, dtype: int64
+0    21
+1     3
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    22
+1     4
+Name: Class, dtype: int64
+0    23
+1    11
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    23
+1    11
+Name: Class, dtype: int64
+0    22
+1     4
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    23
+Name: Class, dtype: int64
+0    22
+1    15
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    20
+1    12
+Name: Class, dtype: int64
+0    25
+1     3
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    22
+1    10
+Name: Class, dtype: int64
+0    23
+1     5
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    21
+1     5
+Name: Class, dtype: int64
+0    24
+1    10
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    21
+1     5
+Name: Class, dtype: int64
+0    24
+1    10
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    21
+1     6
+Name: Class, dtype: int64
+0    24
+1     9
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    25
+1     6
+Name: Class, dtype: int64
+0    20
+1     9
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    20
+1     5
+Name: Class, dtype: int64
+0    25
+1    10
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    24
+1     8
+Name: Class, dtype: int64
+0    21
+1     7
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    24
+1     7
+Name: Class, dtype: int64
+0    21
+1     8
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    27
+1    14
+Name: Class, dtype: int64
+0    18
+1     1
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    22
+1     9
+Name: Class, dtype: int64
+0    23
+1     6
+Name: Class, dtype: int64
+0    45
+1    15
+Name: Class, dtype: int64
+0    16
+1     3
+Name: Class, dtype: int64
+0    29
+1    12
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    12
+1     2
+Name: Class, dtype: int64
+0    10
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    9
+1    2
+Name: Class, dtype: int64
+0    13
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    9
+Name: Class, dtype: int64
+0    13
+1     2
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    10
+Name: Class, dtype: int64
+0    12
+1     2
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    9
+Name: Class, dtype: int64
+0    13
+1     2
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    11
+1     1
+Name: Class, dtype: int64
+0    11
+1     1
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    12
+Name: Class, dtype: int64
+0    10
+1     2
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    11
+Name: Class, dtype: int64
+0    11
+1     2
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    7
+1    2
+Name: Class, dtype: int64
+0    15
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    14
+1     1
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    12
+Name: Class, dtype: int64
+0    10
+1     2
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    11
+1     2
+Name: Class, dtype: int64
+0    11
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    9
+Name: Class, dtype: int64
+0    13
+1     2
+Name: Class, dtype: int64
+0    22
+1     2
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    9
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    10
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    9
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    7
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    8
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    7
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    12
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    6
+Name: Class, dtype: int64
+0    9
+1    1
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    9
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    8
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    8
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    7
+Name: Class, dtype: int64
+0    15
+1     1
+Name: Class, dtype: int64
+0    6
+Name: Class, dtype: int64
+0    9
+1    1
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    7
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    7
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    6
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    7
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    9
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    7
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    6
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    10
+1     1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    6
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    6
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    14
+1    12
+Name: Class, dtype: int64
+0    9
+1    1
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    13
+1     2
+Name: Class, dtype: int64
+1    11
+0    10
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    10
+1     9
+Name: Class, dtype: int64
+0    13
+1     4
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    13
+Name: Class, dtype: int64
+1    13
+0    10
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    11
+1     9
+Name: Class, dtype: int64
+0    12
+1     4
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    9
+1    5
+Name: Class, dtype: int64
+0    14
+1     8
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    10
+1     5
+Name: Class, dtype: int64
+0    13
+1     8
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    14
+1     4
+Name: Class, dtype: int64
+1    9
+0    9
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    11
+1     5
+Name: Class, dtype: int64
+0    12
+1     8
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    8
+1    5
+Name: Class, dtype: int64
+0    15
+1     8
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    13
+1     8
+Name: Class, dtype: int64
+0    10
+1     5
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    12
+1     6
+Name: Class, dtype: int64
+0    11
+1     7
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    15
+1    13
+Name: Class, dtype: int64
+0    8
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    13
+1     9
+Name: Class, dtype: int64
+0    10
+1     4
+Name: Class, dtype: int64
+0    23
+1    13
+Name: Class, dtype: int64
+0    9
+1    2
+Name: Class, dtype: int64
+0    14
+1    11
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    8
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    8
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    7
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    7
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    6
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    6
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    7
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    12
+1     1
+Name: Class, dtype: int64
+0    7
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    6
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    7
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    6
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    8
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    6
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    4
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    5
+1    1
+Name: Class, dtype: int64
+0    4
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    3
+1    1
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+0    2
+1    1
+Name: Class, dtype: int64
+0    2
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    1
+0    1
+Name: Class, dtype: int64
+1    1
+Name: Class, dtype: int64
+0    1
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+1    12
+0     6
+Name: Class, dtype: int64
+0    5
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+0    6
+1    1
+Name: Class, dtype: int64
+1    11
+0     5
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+1    8
+0    6
+Name: Class, dtype: int64
+0    5
+1    4
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+0    6
+Name: Class, dtype: int64
+1    12
+0     5
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+1    8
+0    6
+Name: Class, dtype: int64
+0    5
+1    4
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+1    5
+0    5
+Name: Class, dtype: int64
+1    7
+0    6
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+1    5
+0    5
+Name: Class, dtype: int64
+1    7
+0    6
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+0    8
+1    3
+Name: Class, dtype: int64
+1    9
+0    3
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+0    6
+1    5
+Name: Class, dtype: int64
+1    7
+0    5
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+1    5
+0    4
+Name: Class, dtype: int64
+1    7
+0    7
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+1    7
+0    6
+Name: Class, dtype: int64
+1    5
+0    5
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+0    6
+1    5
+Name: Class, dtype: int64
+1    7
+0    5
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+1    12
+0     8
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+1    8
+0    8
+Name: Class, dtype: int64
+1    4
+0    3
+Name: Class, dtype: int64
+1    12
+0    11
+Name: Class, dtype: int64
+0    4
+1    2
+Name: Class, dtype: int64
+1    10
+0     7
+Name: Class, dtype: int64
+1    11
+0     5
+Name: Class, dtype: int64
+1    11
+0     2
+Name: Class, dtype: int64
+0    3
+Name: Class, dtype: int64
+1    11
+0     5
+Name: Class, dtype: int64
+1    7
+0    4
+Name: Class, dtype: int64
+1    4
+0    1
+Name: Class, dtype: int64

@@ -7,20 +7,24 @@ from functools import reduce
 def varianceImpurity(data):
 	#we get the of number of instances of each class, j
 	counts = data[CLASS_COL].value_counts()
-
+	
+	
 	#take the product of the counts
 	counts_product = reduce(operator.mul, counts)
 
 	#skip the division if it's zero, cause we already know the answer
-	if counts_product == 0:
+	if counts_product == 0 or len(counts) == 1:
 		return 0
 
 	#then normalise by the number of instances in the dataset
+	#print(counts)
+
 	return counts_product / math.pow(data.shape[0], len(counts))
 
 def entropy(data):
 	#get the number of instances of each class, j
 	counts = data[CLASS_COL].value_counts()
+	#print(counts)
 
 	#then sum -p_j * log_2(p_j) for each j
 	total = 0
@@ -36,7 +40,7 @@ def gain(data, attr, heuristic=entropy):
 	values = data[attr].unique()
 
 	n_data = data.shape[0]
-	total_gain = entropy(data)
+	total_gain = heuristic(data)
 	
 	#for each value, v, of the attribute...
 	for v in values:
