@@ -1,42 +1,7 @@
-from heuristics import best_split 
+from heuristics import best_split, CLASS_COL 
 
 #Left branches are attribute values of 0
 #Right branches are attribute values of 1
-
-#Slow, I think I may be copying data down each split of the tree then
-#just filtering it like I want to
-def build_tree(node, data, heuristic):
-	#At each layer, filter the data so that it only sees data that should be at that branch
-	filtered_subset = data
-	for key in node.previous_splits:
-		filtered_subset = filtered_subset[filtered_subset[key] == node.previous_splits[key]]
-	
-	#If this subset is pure, we don't need to split anymore
-	if heuristic(filtered_subset) == 0:
-		if not filtered_subset.empty:
-			node.class_value = filtered_subset.iloc[0]["Class"]
-		else:
-			node.class_value = None
-		return 0
-	else:
-		#Get the best attribute to split on
-		best_attr = best_split(filtered_subset, heuristic)
-		node.split_attribute = best_attr
-		
-		#Partition the left and right nodes
-		node.left = Node(node.previous_splits.copy())
-		node.left.previous_splits[best_attr] = 0
-
-		node.right = Node(node.previous_splits.copy())
-		node.right.previous_splits[best_attr] = 1
-
-		#get rid of the attribute we just used
-		#del node.right.previous_splits[best_attr]
-		#del node.left.previous_splits[best_attr]
-
-		#Recurse!
-		build_tree(node.left, filtered_subset, heuristic)
-		build_tree(node.right, filtered_subset, heuristic)
 
 class Node:
 	def __init__(self, previous_splits=None):
@@ -51,6 +16,37 @@ class Node:
 		#share the same dict)
 		if self.previous_splits == None:
 			self.previous_splits = {}
+
+	def build_tree(self, data, heuristic):
+		if data.empty:
+			self.class_value = None
+			return
+		
+		#if we've got a pure dataset or we're out of attributes...
+		elif len(data[CLASS_COL].unique()) == 1 or data.shape[1] == 1:
+			#select the most common class value
+			counts = data[CLASS_COL].value_counts()
+			self.class_value = counts.idxmax()
+			
+			return
+
+		#otherwise, get the best attribute to split on
+		best_attr = best_split(data, heuristic)
+		self.split_attribute = best_attr
+	
+		#create new nodes
+		self.left = Node()
+		self.right = Node()
+
+		for node, val in [[self.left, 0], [self.right, 1]]:
+			#make a copy of the filtered dataset
+			filtered_data = data[data[best_attr] == val]
+			
+			#remove the selected attribute from the dataset
+			del filtered_data[best_attr]
+
+			#recurse!
+			node.build_tree(filtered_data, heuristic)
 
 	def print_subtree(self, indent):
 		if self != None and self.split_attribute != None:
