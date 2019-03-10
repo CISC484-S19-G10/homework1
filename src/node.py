@@ -30,17 +30,27 @@ def build_tree(node, data, heuristic):
 		node.right = Node(node.previous_splits.copy())
 		node.right.previous_splits[best_attr] = 1
 
+		#get rid of the attribute we just used
+		#del node.right.previous_splits[best_attr]
+		#del node.left.previous_splits[best_attr]
+
 		#Recurse!
 		build_tree(node.left, filtered_subset, heuristic)
 		build_tree(node.right, filtered_subset, heuristic)
 
 class Node:
-	def __init__(self, previous_splits={}):
+	def __init__(self, previous_splits=None):
 		self.left = None
 		self.right = None
 		self.split_attribute = None
-		self.previous_splits = previous_splits
 		self.class_value = None
+
+		self.previous_splits = previous_splits
+		#set previous splits to a new dict if none given
+		#(cannot do this via default args since that would have every instance
+		#share the same dict)
+		if self.previous_splits == None:
+			self.previous_splits = {}
 
 	def print_subtree(self, indent):
 		if self != None and self.split_attribute != None:
