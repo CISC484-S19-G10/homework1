@@ -47,6 +47,10 @@ def main():
 
 	acc = accuracy(root, train)
 	print(acc)
+	
+	pruned_tree = prune_tree(root, l, k, valid)
+	pruned_acc = accuracy(pruned_root, valid)
+	print(pruned_acc)
 
 if __name__=='__main__':
 	main()

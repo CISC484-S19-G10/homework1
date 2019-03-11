@@ -1,4 +1,4 @@
-from heuristics import best_split, CLASS_COL
+from heuristics import best_split, CLASS_COL, accuracy
 import random
 
 #Left branches are attribute values of 0
@@ -76,7 +76,7 @@ class Node:
 			self.right.print_subtree(indent+1)
 			 
 
-	def prune_tree(self, l, k):
+	def prune_tree(self, l, k, validation):
 		best_tree = self
 		best_accuracy = accuracy(self, validation)
 		for i in range(1, l):
@@ -88,7 +88,7 @@ class Node:
 				#make node p a leaf node
 				interior_nodes[p].collapse()			
 			#figure out how to fit in accuracy check
-			new_accuracy = 0 #temp.accuracy(validation)
+			new_accuracy = accuracy(temp, validation)
 			if new_accuracy > best_accuracy:
 				best_tree = temp
 		return best_tree
