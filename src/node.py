@@ -11,7 +11,7 @@ class Node:
 		self.left = None
 		self.right = None
 		self.split_attribute = None
-		self.class_value = None
+		self.set_class_value(None)
 		self.data = None
 
 		self.previous_splits = previous_splits
@@ -23,9 +23,9 @@ class Node:
 
 	def set_class_value(self, val):
 		if val == None:
-			Node.interior_nodes.remove(self)
+			Node.internal_nodes.add(self)
 		else:
-			Node.interior_nodes.add(self)
+			Node.internal_nodes.remove(self)
 		self.class_value = val
 
 
@@ -38,7 +38,7 @@ class Node:
 		elif len(data[CLASS_COL].unique()) == 1 or data.shape[1] == 1:
 			#select the most common class value
 			counts = data[CLASS_COL].value_counts()
-			self.class_value = counts.idxmax()
+			self.set_class_value(counts.idxmax())
 			self.data = data
 			return
 
@@ -93,10 +93,9 @@ class Node:
 			temp = self.deepcopy()
 			m = random.randint(1, k+1)
 			for j in range(1, m):
-				interior_nodes = tree_to_list(temp)
-				p = random.randint(0, len(interior_nodes))
+				p = random.randint(0, len(Node.internal_nodes))
 				#make node p a leaf node
-				interior_nodes[p].collapse()			
+				Node.internal_nodes[p].collapse()
 			#figure out how to fit in accuracy check
 			new_accuracy = accuracy(temp, validation)
 			if new_accuracy > best_accuracy:
@@ -112,6 +111,8 @@ class Node:
 			collapse(self.right)
 			self.data += self.right.data
 			self.right = None
+		
+		Node.internal_nodes.remove(self)
 
 		#select the most common class value
 		counts = self.data[CLASS_COL].value_counts()
