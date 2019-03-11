@@ -1,4 +1,5 @@
-from heuristics import best_split, CLASS_COL 
+from heuristics import best_split, CLASS_COL, accuracy
+import random
 
 #Left branches are attribute values of 0
 #Right branches are attribute values of 1
@@ -9,6 +10,7 @@ class Node:
 		self.right = None
 		self.split_attribute = None
 		self.class_value = None
+		self.data = None
 
 		self.previous_splits = previous_splits
 		#set previous splits to a new dict if none given
@@ -27,7 +29,7 @@ class Node:
 			#select the most common class value
 			counts = data[CLASS_COL].value_counts()
 			self.class_value = counts.idxmax()
-			
+			self.data = data
 			return
 
 		#otherwise, get the best attribute to split on
@@ -72,3 +74,44 @@ class Node:
 			print(right_subtree_print)
 
 			self.right.print_subtree(indent+1)
+			 
+
+	def prune_tree(self, l, k, validation):
+		best_tree = self
+		best_accuracy = accuracy(self, validation)
+		for i in range(1, l):
+			temp = self
+			m = random.randint(1, k+1)
+			for j in range(1, m):
+				interior_nodes = tree_to_list(temp)
+				p = random.randint(0, len(interior_nodes))
+				#make node p a leaf node
+				interior_nodes[p].collapse()			
+			#figure out how to fit in accuracy check
+			new_accuracy = accuracy(temp, validation)
+			if new_accuracy > best_accuracy:
+				best_tree = temp
+		return best_tree
+	
+	def collapse(self):
+		if self.left != None:
+			collapse(self.left)
+			self.data += self.left.data
+			self.left = None
+		if self.right != None:
+			collapse(self.right)
+			self.data += self.right.data
+			self.right = None
+
+		#select the most common class value
+		counts = self.data[CLASS_COL].value_counts()
+		self.class_value = counts.idxmax()
+		self.split_attribute = None
+
+	#used to select a random non-leaf node
+	def tree_to_list(self, currNode, a = []): 
+		#only add non-leaf nodes
+		if currNode != None and currNode.left != None and currNode.right != None:
+			self.tree_to_list(currNode.left, a)
+			a += [currNode]
+			self.tree_to_list(currNode.right, a)
