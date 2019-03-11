@@ -5,6 +5,8 @@ import random
 #Right branches are attribute values of 1
 
 class Node:
+	internal_nodes = set()
+
 	def __init__(self, previous_splits=None):
 		self.left = None
 		self.right = None
@@ -18,6 +20,14 @@ class Node:
 		#share the same dict)
 		if self.previous_splits == None:
 			self.previous_splits = {}
+
+	def set_class_value(self, val):
+		if val == None:
+			Node.interior_nodes.remove(self)
+		else:
+			Node.interior_nodes.add(self)
+		self.class_value = val
+
 
 	def build_tree(self, data, heuristic):
 		if data.empty:
@@ -80,7 +90,7 @@ class Node:
 		best_tree = self
 		best_accuracy = accuracy(self, validation)
 		for i in range(1, l):
-			temp = self
+			temp = self.deepcopy()
 			m = random.randint(1, k+1)
 			for j in range(1, m):
 				interior_nodes = tree_to_list(temp)
