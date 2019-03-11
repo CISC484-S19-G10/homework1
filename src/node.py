@@ -40,6 +40,7 @@ class Node:
 		self.left = Node()
 		self.right = Node()
 
+
 		for node, val in [[self.left, 0], [self.right, 1]]:
 			#make a copy of the filtered dataset
 			filtered_data = data[data[best_attr] == val]
@@ -76,42 +77,39 @@ class Node:
 			self.right.print_subtree(indent+1)
 			 
 
-	def prune_tree(self, l, k):
+	def prune_tree(self, l, k, validation):
 		best_tree = self
 		best_accuracy = accuracy(self, validation)
 		for i in range(1, l):
 			temp = self
 			m = random.randint(1, k+1)
 			for j in range(1, m):
-				interior_nodes = tree_to_list(temp)
-				p = random.randint(0, len(interior_nodes))
-				#make node p a leaf node
-				interior_nodes[p].collapse()			
-			#figure out how to fit in accuracy check
-			new_accuracy = 0 #temp.accuracy(validation)
-			if new_accuracy > best_accuracy:
-				best_tree = temp
-		return best_tree
-	
-	def collapse(self):
-		if self.left != None:
-			collapse(self.left)
-			self.data += self.left.data
-			self.left = None
-		if self.right != None:
-			collapse(self.right)
-			self.data += self.right.data
-			self.right = None
+				a = 3+3
 
-		#select the most common class value
-		counts = self.data[CLASS_COL].value_counts()
-		self.class_value = counts.idxmax()
-		self.split_attribute = None
+	def find_majority(self, node):
+		count_0 = self.count_value(node, 0)
+		count_1 = self.count_value(node, 1)
 
-	#used to select a random non-leaf node
-	def tree_to_list(self, currNode, a = []): 
-		#only add non-leaf nodes
-		if currNode != None and currNode.left != None and currNode.right != None:
-			self.tree_to_list(currNode.left, a)
-			a += [currNode]
-			self.tree_to_list(currNode.right, a)
+		print((count_0, count_1))
+
+
+		##class_0_count += count_node(node.left)
+	def count_value(self, node, value):
+		count = 0
+
+		if node.left != None:
+			count += self.count_value(node.left, value)
+
+		if node.right != None:
+			count += self.count_value(node.right, value)
+
+		if node.class_value != None:
+			filtered_data = node.data[node.data["Class"] == value]
+			count += filtered_data.shape[0]
+
+
+		return count
+
+
+
+		

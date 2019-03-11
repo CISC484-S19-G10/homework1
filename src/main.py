@@ -36,17 +36,15 @@ def main():
 	test = pandas.read_csv(test)
 	valid = pandas.read_csv(valid)
 
-	for heur in [entropy, varianceImpurity]:
+	for heur in [entropy]:
 		root = Node()
 		root.build_tree(train, heur)	
-		#root.print_subtree(0)
-		acc = accuracy(root, test)
+		root.print_subtree(0)
+		#root.find_majority(root.right)
+		#root.find_majority(root.left)
+		#root.prune_tree(10,10, valid)
 
-	#root = Node()
-	#root.build_tree(train, entropy)
-	#root.print_subtree(0)
-
-	#acc = accuracy(root, valid)
+		
 
 if __name__=='__main__':
 	main()
