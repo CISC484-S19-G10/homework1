@@ -1,4 +1,4 @@
-from heuristics import best_split, CLASS_COL, accuracy
+from heuristics import best_split, CLASS_COL
 import random
 
 #Left branches are attribute values of 0
