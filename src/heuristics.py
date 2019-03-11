@@ -7,20 +7,24 @@ from functools import reduce
 def varianceImpurity(data):
 	#we get the of number of instances of each class, j
 	counts = data[CLASS_COL].value_counts()
-
+	
+	
 	#take the product of the counts
 	counts_product = reduce(operator.mul, counts)
 
 	#skip the division if it's zero, cause we already know the answer
-	if counts_product == 0:
+	if counts_product == 0 or len(counts) == 1:
 		return 0
 
 	#then normalise by the number of instances in the dataset
+	#print(counts)
+
 	return counts_product / math.pow(data.shape[0], len(counts))
 
 def entropy(data):
 	#get the number of instances of each class, j
 	counts = data[CLASS_COL].value_counts()
+	#print(counts)
 
 	#then sum -p_j * log_2(p_j) for each j
 	total = 0
@@ -36,7 +40,7 @@ def gain(data, attr, heuristic=entropy):
 	values = data[attr].unique()
 
 	n_data = data.shape[0]
-	total_gain = entropy(data)
+	total_gain = heuristic(data)
 	
 	#for each value, v, of the attribute...
 	for v in values:
@@ -50,6 +54,30 @@ def gain(data, attr, heuristic=entropy):
 		total_gain -= p_v * heuristic(s_v)
 	
 	return total_gain
+
+def accuracy(tree, validation):
+	correct = 0
+	for index, row in validation.iterrows():
+		classified_as = classify(tree, row)
+		if classified_as == row["Class"]:
+			correct+=1
+		#print("Classified As: "+str(classified_as)+", Actual: "+str(row["Class"]))
+		#return 0
+		#print(row)
+	
+	return correct/validation.shape[0]
+	#print("EME")
+
+def classify(tree, instance):
+	current_node = tree
+	while current_node.split_attribute != None:
+		if instance[current_node.split_attribute] == 1:
+			current_node = current_node.right
+		else:
+			current_node = current_node.left
+
+	return current_node.class_value
+	#print(instance)
 
 # Given a subset and a heuristic, returns the attribute that has
 # the greatest info gain
