@@ -45,11 +45,11 @@ def main():
 	root.build_tree(train, entropy)
 	root.print_subtree(0)
 
-	acc = accuracy(root, train)
+	acc = accuracy(root, test)
 	print(acc)
 	
-	pruned_tree = prune_tree(root, l, k, valid)
-	pruned_acc = accuracy(pruned_root, valid)
+	pruned_root = root.prune_tree(5, 5, valid)
+	pruned_acc = accuracy(pruned_root, test)
 	print(pruned_acc)
 
 if __name__=='__main__':

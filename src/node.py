@@ -1,5 +1,7 @@
 from heuristics import best_split, CLASS_COL, accuracy
 import random
+import copy
+import pandas
 
 #Left branches are attribute values of 0
 #Right branches are attribute values of 1
@@ -24,7 +26,7 @@ class Node:
 	def set_class_value(self, val):
 		if val == None:
 			Node.internal_nodes.add(self)
-		else:
+		elif self in Node.internal_nodes:
 			Node.internal_nodes.remove(self)
 		self.class_value = val
 
@@ -90,12 +92,15 @@ class Node:
 		best_tree = self
 		best_accuracy = accuracy(self, validation)
 		for i in range(1, l):
-			temp = self.deepcopy()
+			temp = copy.deepcopy(self)
 			m = random.randint(1, k+1)
 			for j in range(1, m):
-				p = random.randint(0, len(Node.internal_nodes))
+				if not Node.internal_nodes:
+					break
+
 				#make node p a leaf node
-				Node.internal_nodes[p].collapse()
+				p = random.sample(Node.internal_nodes, 1)
+				p[0].collapse()
 			#figure out how to fit in accuracy check
 			new_accuracy = accuracy(temp, validation)
 			if new_accuracy > best_accuracy:
@@ -103,16 +108,20 @@ class Node:
 		return best_tree
 	
 	def collapse(self):
+		#combine the data from our children with our data
+		data_list = [self.data]
 		if self.left != None:
-			collapse(self.left)
-			self.data += self.left.data
+			self.left.collapse()
+			data_list.append(self.left.data)
 			self.left = None
 		if self.right != None:
-			collapse(self.right)
-			self.data += self.right.data
+			self.right.collapse()
+			data_list.append(self.right.data)
 			self.right = None
-		
-		Node.internal_nodes.remove(self)
+		self.data = pandas.concat(data_list, sort=False)
+
+		if self in Node.internal_nodes:
+			Node.internal_nodes.remove(self)
 
 		#select the most common class value
 		counts = self.data[CLASS_COL].value_counts()
