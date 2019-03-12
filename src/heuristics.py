@@ -8,7 +8,6 @@ def varianceImpurity(data):
 	#we get the of number of instances of each class, j
 	counts = data[CLASS_COL].value_counts()
 	
-	
 	#take the product of the counts
 	counts_product = reduce(operator.mul, counts)
 
@@ -54,29 +53,9 @@ def gain(data, attr, heuristic=entropy):
 		total_gain -= p_v * heuristic(s_v)
 	
 	return total_gain
-
-def accuracy(tree, validation):
-	correct = 0
-	for index, row in validation.iterrows():
-		classified_as = classify(tree, row)
-		if classified_as == row["Class"]:
-			correct+=1
-		#print("Classified As: "+str(classified_as)+", Actual: "+str(row["Class"]))
-		#return 0
-		#print(row)
 	
 	return correct/validation.shape[0]
 	#print("EME")
-
-def classify(tree, instance):
-	current_node = tree
-	while current_node.split_attribute != None:
-		if instance[current_node.split_attribute] == 1:
-			current_node = current_node.right
-		else:
-			current_node = current_node.left
-
-	return current_node.class_value
 	#print(instance)
 
 # Given a subset and a heuristic, returns the attribute that has

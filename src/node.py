@@ -1,4 +1,4 @@
-from heuristics import best_split, CLASS_COL, accuracy
+from heuristics import best_split, CLASS_COL
 import random
 import copy
 import pandas
@@ -7,7 +7,6 @@ import pandas
 #Right branches are attribute values of 1
 
 class Node:
-	internal_nodes = set()
 
 	def __init__(self, previous_splits=None):
 		self.left = None
@@ -20,16 +19,16 @@ class Node:
 		#set previous splits to a new dict if none given
 		#(cannot do this via default args since that would have every instance
 		#share the same dict)
-		if self.previous_splits == None:
+		if self.previous_splits is None:
 			self.previous_splits = {}
 
-	def set_class_value(self, val):
-		if val == None:
-			Node.internal_nodes.add(self)
-		elif self in Node.internal_nodes:
-			Node.internal_nodes.remove(self)
+	def set_class_value(self, val, internal_nodes=None):
+		if internal_nodes:
+			if val == None:
+				internal_nodes.add(self)
+			elif self in internal_nodes:
+				internal_nodes.remove(self)
 		self.class_value = val
-
 
 	def build_tree(self, data, heuristic):
 		if data.empty:
@@ -86,28 +85,83 @@ class Node:
 			print(right_subtree_print)
 
 			self.right.print_subtree(indent+1)
-			 
+	
+	def get_internal_nodes(self, internal_nodes=None):
+		if internal_nodes is None:
+			internal_nodes = set()
+		
+		if self.left is not None or \
+			self.right is not None:
+			internal_nodes.add(self)
+
+		if self.left is not None:
+			self.left.get_internal_nodes(internal_nodes=internal_nodes)
+	
+		if self.right is not None:
+			self.right.get_internal_nodes(internal_nodes=internal_nodes)
+
+		return internal_nodes
+
+	def copy_subtree(self, node):
+		copy_node = copy.deepcopy(node)
+
+		if node.left != None:
+			copy_node.left = self.copy_subtree(node.left)
+		
+		if node.right != None:
+			copy_node.right = self.copy_subtree(node.right)
+		
+		if node.data is not None:
+			copy_node.data = node.data.copy()
+		
+		return copy_node
+
+	def classify(self, instance):
+		current_node = self
+		while current_node.split_attribute != None:
+			if instance[current_node.split_attribute] == 1:
+				current_node = current_node.right
+			else:
+				current_node = current_node.left
+
+		return current_node.class_value
+
+	def accuracy(self, validation):
+		correct = 0
+		for index, row in validation.iterrows():
+			classified_as = self.classify(row)
+			if classified_as == row["Class"]:
+				correct+=1
+			#print("Classified As: "+str(classified_as)+", Actual: "+str(row["Class"]))
+			#return 0
+			#print(row)
+		return correct / validation.shape[0]
 
 	def prune_tree(self, l, k, validation):
 		best_tree = self
-		best_accuracy = accuracy(self, validation)
+		best_accuracy = self.accuracy(validation)
+
 		for i in range(1, l):
-			temp = copy.deepcopy(self)
+			temp = self.copy_subtree(self)
+			internal_nodes = temp.get_internal_nodes()
 			m = random.randint(1, k+1)
 			for j in range(1, m):
-				if not Node.internal_nodes:
+				if not internal_nodes:
 					break
 
 				#make node p a leaf node
-				p = random.sample(Node.internal_nodes, 1)
+				p = random.sample(internal_nodes, 1)
 				p[0].collapse()
-			#figure out how to fit in accuracy check
-			new_accuracy = accuracy(temp, validation)
+
+			new_accuracy = temp.accuracy(validation)
+			#print((new_accuracy, best_accuracy))
 			if new_accuracy > best_accuracy:
+				best_accuracy = new_accuracy
 				best_tree = temp
+		
 		return best_tree
 	
-	def collapse(self):
+	def collapse(self, internal_nodes=None):
 		#combine the data from our children with our data
 		data_list = [self.data]
 		if self.left != None:
@@ -120,8 +174,8 @@ class Node:
 			self.right = None
 		self.data = pandas.concat(data_list, sort=False)
 
-		if self in Node.internal_nodes:
-			Node.internal_nodes.remove(self)
+		if internal_nodes and self in internal_nodes:
+			internal_nodes.remove(self)
 
 		#select the most common class value
 		counts = self.data[CLASS_COL].value_counts()
