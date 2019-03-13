@@ -56,7 +56,7 @@ class Node:
 			filtered_data = data[data[best_attr] == val]
 			
 			#remove the selected attribute from the dataset
-			del filtered_data[best_attr]
+			#del filtered_data[best_attr]
 
 			#recurse!
 			node.build_tree(filtered_data, heuristic)
