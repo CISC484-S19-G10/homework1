@@ -30,17 +30,31 @@ class Node:
 				internal_nodes.remove(self)
 		self.class_value = val
 
+	def inseparable(self, data):
+		new_data = data.iloc[:, 0:data.shape[1]-1]
+		curr = new_data.iloc[0]
+		insep = True
+
+		for index, row in new_data.iterrows():
+			compare = (curr == row)
+			for r in compare:
+				insep = insep and r
+
+		return insep
+		#print(data.duplicated)
+
 	def build_tree(self, data, heuristic):
 		if data.empty:
 			self.class_value = None
 			return
 		
 		#if we've got a pure dataset or we're out of attributes...
-		elif len(data[CLASS_COL].unique()) == 1 or data.shape[1] == 1:
+		elif len(data[CLASS_COL].unique()) == 1 or data.shape[1] == 1 or self.inseparable(data):
 			#select the most common class value
 			counts = data[CLASS_COL].value_counts()
 			self.set_class_value(counts.idxmax())
 			self.data = data
+			#print(self.data)
 			return
 
 		#otherwise, get the best attribute to split on
@@ -50,13 +64,16 @@ class Node:
 		#create new nodes
 		self.left = Node()
 		self.right = Node()
+		#print(self.data)
 
 		for node, val in [[self.left, 0], [self.right, 1]]:
 			#make a copy of the filtered dataset
 			filtered_data = data[data[best_attr] == val]
+			#print(filtered_data)
 			
 			#remove the selected attribute from the dataset
 			#del filtered_data[best_attr]
+			#print("AA")
 
 			#recurse!
 			node.build_tree(filtered_data, heuristic)
@@ -172,6 +189,9 @@ class Node:
 			self.right.collapse()
 			data_list.append(self.right.data)
 			self.right = None
+
+		#print(data_list)
+		#if data_list is not None:
 		self.data = pandas.concat(data_list, sort=False)
 
 		if internal_nodes and self in internal_nodes:
