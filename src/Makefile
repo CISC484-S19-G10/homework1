@@ -1,6 +1,8 @@
 DATASET_1 = ../data_sets1
 DATASET_2 = ../data_sets2
 
+PRINT := yes
+
 FILES = @training_set.csv @validation_set.csv @test_set.csv
 DATA_FILES_1 = $(subst @,$(DATASET_1)/,$(FILES))
 DATA_FILES_2 = $(subst @,$(DATASET_2)/,$(FILES))
@@ -30,65 +32,65 @@ test-all:test-1 test-2
 test-1:$(TESTS_SET_1) 
 
 test-1-0:$(SRC)
-	python3 main.py $(CONFIG_0) $(DATA_FILES_1) yes
+	python3 main.py $(CONFIG_0) $(DATA_FILES_1) $(PRINT)
 
 test-1-1:$(SRC)
-	python3 main.py $(CONFIG_1) $(DATA_FILES_1) yes
+	python3 main.py $(CONFIG_1) $(DATA_FILES_1) $(PRINT)
 
 test-1-2:$(SRC)
-	python3 main.py $(CONFIG_2) $(DATA_FILES_1) yes
+	python3 main.py $(CONFIG_2) $(DATA_FILES_1) $(PRINT)
 
 test-1-3:$(SRC)
-	python3 main.py $(CONFIG_3) $(DATA_FILES_1) yes
+	python3 main.py $(CONFIG_3) $(DATA_FILES_1) $(PRINT)
 
 test-1-4:$(SRC)
-	python3 main.py $(CONFIG_4) $(DATA_FILES_1) yes
+	python3 main.py $(CONFIG_4) $(DATA_FILES_1) $(PRINT)
 
 test-1-5:$(SRC)
-	python3 main.py $(CONFIG_5) $(DATA_FILES_1) yes
+	python3 main.py $(CONFIG_5) $(DATA_FILES_1) $(PRINT)
 
 test-1-6:$(SRC)
-	python3 main.py $(CONFIG_6) $(DATA_FILES_1) yes
+	python3 main.py $(CONFIG_6) $(DATA_FILES_1) $(PRINT)
 
 test-1-7:$(SRC)
-	python3 main.py $(CONFIG_7) $(DATA_FILES_1) yes
+	python3 main.py $(CONFIG_7) $(DATA_FILES_1) $(PRINT)
 
 test-1-8:$(SRC)
-	python3 main.py $(CONFIG_8) $(DATA_FILES_1) yes
+	python3 main.py $(CONFIG_8) $(DATA_FILES_1) $(PRINT)
 
 test-1-9:$(SRC)
-	python3 main.py $(CONFIG_9) $(DATA_FILES_1) yes
+	python3 main.py $(CONFIG_9) $(DATA_FILES_1) $(PRINT)
 
 test-2-0:$(SRC)
-	python3 main.py $(CONFIG_0) $(DATA_FILES_2) yes
+	python3 main.py $(CONFIG_0) $(DATA_FILES_2) $(PRINT)
 
 #tests for dataset 2:
 .DUMMY:test-2 $(TESTS_SET_2)
 test-2:$(TESTS_SET_2) 
 
 test-2-1:$(SRC)
-	python3 main.py $(CONFIG_1) $(DATA_FILES_2) yes
+	python3 main.py $(CONFIG_1) $(DATA_FILES_2) $(PRINT)
 
 test-2-2:$(SRC)
-	python3 main.py $(CONFIG_2) $(DATA_FILES_2) yes
+	python3 main.py $(CONFIG_2) $(DATA_FILES_2) $(PRINT)
 
 test-2-3:$(SRC)
-	python3 main.py $(CONFIG_3) $(DATA_FILES_2) yes
+	python3 main.py $(CONFIG_3) $(DATA_FILES_2) $(PRINT)
 
 test-2-4:$(SRC)
-	python3 main.py $(CONFIG_4) $(DATA_FILES_2) yes
+	python3 main.py $(CONFIG_4) $(DATA_FILES_2) $(PRINT)
 
 test-2-5:$(SRC)
-	python3 main.py $(CONFIG_5) $(DATA_FILES_2) yes
+	python3 main.py $(CONFIG_5) $(DATA_FILES_2) $(PRINT)
 
 test-2-6:$(SRC)
-	python3 main.py $(CONFIG_6) $(DATA_FILES_2) yes
+	python3 main.py $(CONFIG_6) $(DATA_FILES_2) $(PRINT)
 
 test-2-7:$(SRC)
-	python3 main.py $(CONFIG_7) $(DATA_FILES_2) yes
+	python3 main.py $(CONFIG_7) $(DATA_FILES_2) $(PRINT)
 
 test-2-8:$(SRC)
-	python3 main.py $(CONFIG_8) $(DATA_FILES_2) yes
+	python3 main.py $(CONFIG_8) $(DATA_FILES_2) $(PRINT)
 
 test-2-9:$(SRC)
-	python3 main.py $(CONFIG_9) $(DATA_FILES_2) yes
+	python3 main.py $(CONFIG_9) $(DATA_FILES_2) $(PRINT)
